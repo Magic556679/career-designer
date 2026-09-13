@@ -21,6 +21,36 @@ export default tseslint.config([
       ecmaVersion: 2020,
       globals: globals.browser,
     },
+    rules: {
+      'no-restricted-imports': [
+        'error',
+        {
+          patterns: [
+            {
+              group: [
+                './*',
+                '../*',
+                './**',
+                '../**',
+                '!*.css',
+                '!*.scss',
+                '!*.less',
+                '!*.svg',
+                '!*.png',
+                '!*.jpg',
+                '!*.jpeg',
+                '!*.gif',
+                '!*.webp',
+                '!*.woff',
+                '!*.woff2',
+              ],
+              message:
+                'Use the `@` alias instead of relative imports (see CLAUDE.md "Import style"). Static asset imports (css/images/fonts) are exempt.',
+            },
+          ],
+        },
+      ],
+    },
   },
   {
     files: ['src/components/ui/**/*.{ts,tsx}'],
