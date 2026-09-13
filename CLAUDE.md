@@ -22,6 +22,7 @@ Note: `.oxlintrc.json` exists at the repo root but `oxlint` is not installed as 
 ## Architecture
 
 - **Stack**: Vite + React 19 + TypeScript, path alias `@` → `./src` (configured in both `vite.config.ts` and `tsconfig.json`).
+- **Import style**: always use the `@` alias (`@/features/exploration/types`), never relative imports (`./`, `../`) — including inside a feature slice's own `index.ts` barrel importing its own `api/`/`stores`/`types.ts`. Chosen for refactor safety (moving a file doesn't invalidate other files' import paths) and consistent grep-ability across the codebase, at the cost of not visually distinguishing same-slice imports from cross-slice ones in the import path itself.
 - **App shell** (`src/main.tsx`): `StrictMode` → `QueryClientProvider` (TanStack Query, default `QueryClient`, no persistence/config yet) → `BrowserRouter` → `App`.
 - **Routing** (`src/App.tsx`): routes are declared with `react-router-dom`'s `<Routes>/<Route>`. Currently only `/` → `Home` (`src/routes/home.tsx`).
 - **Project structure**: feature-based. `src/routes/` holds thin route/page components (compose features, handle navigation — no domain logic). `src/features/<name>/` holds domain slices, each with its own `api/`, `components/`, `stores/`, `schema/`, and a public `index.ts` (import slices only via that barrel; slices never import each other). Shared code stays at the top level: `src/components/ui` (shadcn), `src/lib`, `src/stores` (global stores only — `auth`), `src/types`. Dependency direction is one-way: `routes → features → shared`.
