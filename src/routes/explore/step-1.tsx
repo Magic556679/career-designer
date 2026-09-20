@@ -1,4 +1,6 @@
 import { useNavigate } from 'react-router-dom'
+import ErrorFallback from '@/components/errors/error-fallback'
+import { LoadingFallback } from '@/components/ui/spinner'
 import { Card, CardContent } from '@/components/ui/card'
 import {
   useTracks,
@@ -9,7 +11,7 @@ import {
 export default function Step1() {
   const navigate = useNavigate()
   const setTrack = useExplorationStore((s) => s.setTrack)
-  const { data: tracks, isPending, isError } = useTracks()
+  const { data: tracks, isPending, isError, refetch } = useTracks()
 
   const handleSelect = (track: Track) => {
     setTrack(track)
@@ -17,11 +19,11 @@ export default function Step1() {
   }
 
   if (isPending) {
-    return <div>載入中...</div>
+    return <LoadingFallback />
   }
 
   if (isError) {
-    return <div>載入錯誤...</div>
+    return <ErrorFallback onRetry={() => refetch()} />
   }
 
   return (
