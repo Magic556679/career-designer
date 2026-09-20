@@ -1,32 +1,38 @@
-# React + TypeScript + Vite
+# Career Designer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+幫助不知道職涯方向的人，透過一連串問題探索適合自己的職涯方向。
 
-Currently, two official plugins are available:
+產品目標與流程見 [docs/product.md](./docs/product.md)，問卷流程的後端設計見 [docs/questionnaire-flow-design.md](./docs/questionnaire-flow-design.md)，開發計畫見 [docs/plan.md](./docs/plan.md)。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 技術棧
 
-## React Compiler
+- Vite + React 19 + TypeScript
+- Tailwind CSS v4、shadcn/ui
+- React Router (`createBrowserRouter`)、TanStack Query、zustand、axios
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 開始開發
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+pnpm install
+cp .env.example .env   # 設定 VITE_API_BASE_URL
+pnpm dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 常用指令
+
+| 指令                                | 說明                      |
+| ----------------------------------- | ------------------------- |
+| `pnpm dev`                          | 啟動開發伺服器            |
+| `pnpm build`                        | 型別檢查後打包            |
+| `pnpm preview`                      | 預覽 production build     |
+| `pnpm lint`                         | 執行 ESLint               |
+| `pnpm format` / `pnpm format:check` | 套用 / 檢查 Prettier 格式 |
+
+## 專案結構
+
+- `src/routes/`：路由頁面，只負責組合 feature 與導頁。
+- `src/features/<name>/`：功能切片（`api/`、`components/`、`stores/`），只透過各自的 `index.ts` 對外。
+- `src/components/`：共用元件，`ui/` 為 shadcn。
+- `src/lib`、`src/stores`、`src/types`：共用工具、全域 store 與型別。
+
+匯入一律使用 `@` alias（對應 `src/`），不使用相對路徑。
