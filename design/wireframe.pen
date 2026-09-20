@@ -316,14 +316,14 @@
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "S79dLU",
-                          "name": "Emoji",
-                          "fill": "$--foreground",
-                          "content": "😕",
-                          "fontFamily": "Inter",
-                          "fontSize": 22,
-                          "fontWeight": "normal"
+                          "type": "icon",
+                          "id": "ub17t",
+                          "name": "Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "frown",
+                          "library": "lucide",
+                          "fill": "$--foreground"
                         },
                         {
                           "type": "text",
@@ -357,14 +357,14 @@
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "IFQoX",
-                          "name": "Emoji",
-                          "fill": "$--foreground",
-                          "content": "🔄",
-                          "fontFamily": "Inter",
-                          "fontSize": 22,
-                          "fontWeight": "normal"
+                          "type": "icon",
+                          "id": "FM6ax",
+                          "name": "Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "refresh-cw",
+                          "library": "lucide",
+                          "fill": "$--foreground"
                         },
                         {
                           "type": "text",
@@ -398,14 +398,14 @@
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "cJwYF",
-                          "name": "Emoji",
-                          "fill": "$--foreground",
-                          "content": "🚀",
-                          "fontFamily": "Inter",
-                          "fontSize": 22,
-                          "fontWeight": "normal"
+                          "type": "icon",
+                          "id": "dGh3N",
+                          "name": "Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "rocket",
+                          "library": "lucide",
+                          "fill": "$--foreground"
                         },
                         {
                           "type": "text",
@@ -631,14 +631,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "XiZdW",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🔍",
-                              "fontFamily": "Inter",
-                              "fontSize": 24,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "R4km8",
+                              "name": "Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "search",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -670,14 +670,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "BS5UM",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🧩",
-                              "fontFamily": "Inter",
-                              "fontSize": 24,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "djU7S",
+                              "name": "Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "puzzle",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -718,14 +718,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "CK81I",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🎨",
-                              "fontFamily": "Inter",
-                              "fontSize": 24,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "aTbMY",
+                              "name": "Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "palette",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -757,14 +757,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "HDWhf",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🤝",
-                              "fontFamily": "Inter",
-                              "fontSize": 24,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "X6Afye",
+                              "name": "Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "handshake",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -805,14 +805,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "odLNp",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "📊",
-                              "fontFamily": "Inter",
-                              "fontSize": 24,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "wvPm1",
+                              "name": "Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "bar-chart-3",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -844,14 +844,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "igICV",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🗣️",
-                              "fontFamily": "Inter",
-                              "fontSize": 24,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "E4Xiq",
+                              "name": "Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "message-circle",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -892,14 +892,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "meVtA",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "📋",
-                              "fontFamily": "Inter",
-                              "fontSize": 24,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "j7faRA",
+                              "name": "Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "clipboard-list",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -931,14 +931,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "wJEPf",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🔬",
-                              "fontFamily": "Inter",
-                              "fontSize": 24,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "utCRK",
+                              "name": "Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "microscope",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -1168,14 +1168,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "Hufdw",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "😴",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "iC9An",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "meh",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -1207,14 +1207,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "S9Maf3",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🔁",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "l6Vc1G",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "repeat",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -1255,14 +1255,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "m7AphI",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "📈",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "vXfl1",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "trending-up",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -1294,14 +1294,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "evUpj",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "💰",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "JuOhG",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "dollar-sign",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -1342,14 +1342,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "UwVaE",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🏢",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "nb9we",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "building-2",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -1381,14 +1381,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "vbwFo",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "👥",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "D9asfp",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "users",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -1429,14 +1429,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "lftcp",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🧑‍💼",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "qckLs",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "briefcase",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -1468,14 +1468,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "en5F6",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "⏰",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "Pia4s",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "clock",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -1516,14 +1516,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "o4SBYx",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🎯",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "I8V22q",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "target",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -1555,14 +1555,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "w5UTl",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "❓",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "Sd0uL",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "circle-help",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -1788,15 +1788,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "paI8y",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "dollar-sign",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "lN2BX",
+                              "id": "Bqabx",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "💰 財務自由",
+                              "content": "財務自由",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -1813,15 +1824,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "ezMmo",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "trending-up",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "wSCEZ",
+                              "id": "AFX40",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "📈 成長與學習",
+                              "content": "成長與學習",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -1847,15 +1869,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "ZooDD",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "trophy",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "mfh6A",
+                              "id": "DGCmk",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🏆 成就與認可",
+                              "content": "成就與認可",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -1872,15 +1905,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "cLQS9",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "target",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "EXSF6",
+                              "id": "QohFt",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🎯 發揮能力",
+                              "content": "發揮能力",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -1906,15 +1950,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "UxvHy",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "handshake",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "CkDoF",
+                              "id": "bJQuh",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🤝 幫助他人",
+                              "content": "幫助他人",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -1931,15 +1986,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "UPvy0",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "globe",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "frE3m",
+                              "id": "q5QD64",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🌍 影響社會",
+                              "content": "影響社會",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -1965,15 +2031,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "gNlRz",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "wind",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "srxf5",
+                              "id": "sWvjf",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🧘 生活自由",
+                              "content": "生活自由",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2174,15 +2251,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "grj63",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "refresh-cw",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "gmfyv",
+                              "id": "ob1ke",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🔄 活得真實",
+                              "content": "活得真實",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2199,15 +2287,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "SWkKV",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "sprout",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "kfluF",
+                              "id": "A2z2Nm",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🌱 持續成長",
+                              "content": "持續成長",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2233,15 +2332,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "ElZLg",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "heart",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "DbwgT",
+                              "id": "QR0Lz",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "❤️ 愛與被愛",
+                              "content": "愛與被愛",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2258,15 +2368,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "AuJWo",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "users",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "T5AEJ",
+                              "id": "v3S8gy",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "👨‍👩‍👧 陪伴家人",
+                              "content": "陪伴家人",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2292,15 +2413,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "jGQOr",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "smile",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "LE8Qh",
+                              "id": "Efzbr",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "😊 善待他人",
+                              "content": "善待他人",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2317,15 +2449,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "PMwC4",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "globe",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "j6un3Z",
+                              "id": "kB8gU",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🌍 影響世界",
+                              "content": "影響世界",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2351,15 +2494,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "MC4gI",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "flame",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "v269BV",
+                              "id": "fPzxY",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🔥 活出熱情",
+                              "content": "活出熱情",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2376,15 +2530,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "kcQuL",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "feather",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "mBVuu",
+                              "id": "d2cyEg",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🕊️ 內心自由",
+                              "content": "內心自由",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2410,15 +2575,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "t66EGB",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "wind",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "m5fAD",
+                              "id": "FVCFO",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🧘 平靜自在",
+                              "content": "平靜自在",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2435,15 +2611,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "ifYmh",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "trophy",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "u4jhr",
+                              "id": "vay8W",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🏆 敬佩的自己",
+                              "content": "敬佩的自己",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2469,15 +2656,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "Mmdg5",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "compass",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "RfEHO",
+                              "id": "TMQUm",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🧭 探索世界",
+                              "content": "探索世界",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2494,15 +2692,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "WVGEJ",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "pen-line",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "ONn7B",
+                              "id": "TMx7P",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "✍️ 留下故事",
+                              "content": "留下故事",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2693,15 +2902,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "iZk59",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "puzzle",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "AG37M",
+                              "id": "wu7XF",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🧩 解決問題",
+                              "content": "解決問題",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2718,15 +2938,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "ctQyY",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "trophy",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "kvM7N",
+                              "id": "de66o",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🏆 做出成果",
+                              "content": "做出成果",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2752,15 +2983,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "trXD7",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "handshake",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "DlJzo",
+                              "id": "WcVVm",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🤝 跟人合作",
+                              "content": "跟人合作",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2777,15 +3019,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "FWa43",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "target",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "qXsve",
+                              "id": "Dqcb2",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🎯 自己決定怎麼做",
+                              "content": "自己決定怎麼做",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2811,15 +3064,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "iVVC5",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "book-open",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "kMTHB",
+                              "id": "qJbjQ",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "📚 學習新東西",
+                              "content": "學習新東西",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2836,15 +3100,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "oBhmY",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "house",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "ZHn9q",
+                              "id": "XGJMt",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🏡 穩定的生活",
+                              "content": "穩定的生活",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2870,15 +3145,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "BaY7i",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "dollar-sign",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "s2tUdV",
+                              "id": "iGDrR",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "💰 賺錢",
+                              "content": "賺錢",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -2895,15 +3181,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "ZTKqE",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "heart",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "M7Sd2q",
+                              "id": "e2oTRI",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "❤️ 幫助別人",
+                              "content": "幫助別人",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -3069,7 +3366,7 @@
       "y": 8802,
       "name": "Wireframe - Desktop",
       "width": 7600,
-      "height": 1496,
+      "height": 855,
       "layout": "none",
       "children": [
         {
@@ -3190,14 +3487,14 @@
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "L0lyxD",
-                          "name": "Emoji",
-                          "fill": "$--foreground",
-                          "content": "😕",
-                          "fontFamily": "Inter",
-                          "fontSize": 22,
-                          "fontWeight": "normal"
+                          "type": "icon",
+                          "id": "iZtP1",
+                          "name": "Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "frown",
+                          "library": "lucide",
+                          "fill": "$--foreground"
                         },
                         {
                           "type": "text",
@@ -3231,14 +3528,14 @@
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "yQMbU",
-                          "name": "Emoji",
-                          "fill": "$--foreground",
-                          "content": "🔄",
-                          "fontFamily": "Inter",
-                          "fontSize": 22,
-                          "fontWeight": "normal"
+                          "type": "icon",
+                          "id": "cBJIg",
+                          "name": "Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "refresh-cw",
+                          "library": "lucide",
+                          "fill": "$--foreground"
                         },
                         {
                           "type": "text",
@@ -3272,14 +3569,14 @@
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "G8StZ",
-                          "name": "Emoji",
-                          "fill": "$--foreground",
-                          "content": "🚀",
-                          "fontFamily": "Inter",
-                          "fontSize": 22,
-                          "fontWeight": "normal"
+                          "type": "icon",
+                          "id": "TdJlj",
+                          "name": "Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "rocket",
+                          "library": "lucide",
+                          "fill": "$--foreground"
                         },
                         {
                           "type": "text",
@@ -3504,14 +3801,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "lJH8I",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🔍",
-                              "fontFamily": "Inter",
-                              "fontSize": 24,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "KJnPE",
+                              "name": "Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "search",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -3543,14 +3840,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "vnCIq",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🧩",
-                              "fontFamily": "Inter",
-                              "fontSize": 24,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "kBHEI",
+                              "name": "Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "puzzle",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -3582,14 +3879,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "ggmLB",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🎨",
-                              "fontFamily": "Inter",
-                              "fontSize": 24,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "rT3gg",
+                              "name": "Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "palette",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -3630,14 +3927,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "EsVfO",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🤝",
-                              "fontFamily": "Inter",
-                              "fontSize": 24,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "lSlSa",
+                              "name": "Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "handshake",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -3669,14 +3966,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "VW72U",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "📊",
-                              "fontFamily": "Inter",
-                              "fontSize": 24,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "I9O24K",
+                              "name": "Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "bar-chart-3",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -3708,14 +4005,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "U5eLEv",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🗣️",
-                              "fontFamily": "Inter",
-                              "fontSize": 24,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "R60ig",
+                              "name": "Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "message-circle",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -3756,14 +4053,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "eqngg",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "📋",
-                              "fontFamily": "Inter",
-                              "fontSize": 24,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "EOyS6",
+                              "name": "Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "clipboard-list",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -3795,14 +4092,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "Wuzfc",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🔬",
-                              "fontFamily": "Inter",
-                              "fontSize": 24,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "j7ltQk",
+                              "name": "Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "microscope",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -4031,14 +4328,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "wCkZW",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "😴",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "Lpf8H",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "meh",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -4070,14 +4367,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "h3PlcJ",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🔁",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "jtD5I",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "repeat",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -4109,14 +4406,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "qoEsD",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "📈",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "PHw1t",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "trending-up",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -4157,14 +4454,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "Bc2cJ",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "💰",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "d5bv43",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "dollar-sign",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -4196,14 +4493,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "n5abOG",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🏢",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "S9VdK",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "building-2",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -4235,14 +4532,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "M97tx",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "👥",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "oOOpE",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "users",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -4283,14 +4580,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "CRSFS",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🧑‍💼",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "aJtwH",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "briefcase",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -4322,14 +4619,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "aqe0e",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "⏰",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "jdfqe",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "clock",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -4361,14 +4658,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "Ead2h",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "🎯",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "M2F5xv",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "target",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -4409,14 +4706,14 @@
                           "alignItems": "center",
                           "children": [
                             {
-                              "type": "text",
-                              "id": "tjD98",
-                              "name": "Emoji",
-                              "fill": "$--foreground",
-                              "content": "❓",
-                              "fontFamily": "Inter",
-                              "fontSize": 16,
-                              "fontWeight": "normal"
+                              "type": "icon",
+                              "id": "m7QSLd",
+                              "name": "Icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "circle-help",
+                              "library": "lucide",
+                              "fill": "$--foreground"
                             },
                             {
                               "type": "text",
@@ -4615,15 +4912,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "pMhH2",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "puzzle",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "SWNjE",
+                              "id": "uQRNg",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🧩 解決問題",
+                              "content": "解決問題",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -4640,15 +4948,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "y9ysT",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "trophy",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "YBXtu",
+                              "id": "ydbis",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🏆 做出成果",
+                              "content": "做出成果",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -4665,15 +4984,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "h0UiJ1",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "handshake",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "McaFp",
+                              "id": "S5YmoW",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🤝 跟人合作",
+                              "content": "跟人合作",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -4699,15 +5029,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "W24zf4",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "target",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "wTEll",
+                              "id": "IojZd",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🎯 自己決定怎麼做",
+                              "content": "自己決定怎麼做",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -4724,15 +5065,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "h0Fy3",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "book-open",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "J5PIlq",
+                              "id": "NVsFm",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "📚 學習新東西",
+                              "content": "學習新東西",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -4749,15 +5101,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "gjV9D",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "house",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "a6XHSx",
+                              "id": "S9bnRS",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🏡 穩定的生活",
+                              "content": "穩定的生活",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -4783,15 +5146,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "el7VE",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "dollar-sign",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "dxHMQ",
+                              "id": "HoFfj",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "💰 賺錢",
+                              "content": "賺錢",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -4808,15 +5182,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "dpfHD",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "heart",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "Uc9V6",
+                              "id": "A3yupd",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "❤️ 幫助別人",
+                              "content": "幫助別人",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5006,15 +5391,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "ItgSF",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "dollar-sign",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "p4bXS",
+                              "id": "twhQK",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "💰 財務自由",
+                              "content": "財務自由",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5031,15 +5427,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "mu26y",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "trending-up",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "d3zWU2",
+                              "id": "MNGyi",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "📈 成長與學習",
+                              "content": "成長與學習",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5056,15 +5463,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "zAzuu",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "trophy",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "v5V7q",
+                              "id": "D0g7uw",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🏆 成就與認可",
+                              "content": "成就與認可",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5090,15 +5508,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "eo3ST",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "target",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "xh3Ey",
+                              "id": "U2Y13S",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🎯 發揮能力",
+                              "content": "發揮能力",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5115,15 +5544,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "LC4yX",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "handshake",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "Fpjtv",
+                              "id": "hMoAx",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🤝 幫助他人",
+                              "content": "幫助他人",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5140,15 +5580,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "BBpNE",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "globe",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "lnchQ",
+                              "id": "IgUal",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🌍 影響社會",
+                              "content": "影響社會",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5174,15 +5625,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "G9O64",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "wind",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "A3VFBj",
+                              "id": "ABPxY",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🧘 生活自由",
+                              "content": "生活自由",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5372,15 +5834,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "mk0Rg",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "refresh-cw",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "JDugT",
+                              "id": "f6ALCw",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🔄 活得真實",
+                              "content": "活得真實",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5397,15 +5870,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "ELKVT",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "sprout",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "zt3JE",
+                              "id": "TzVhU",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🌱 持續成長",
+                              "content": "持續成長",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5422,15 +5906,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "T9Zev5",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "heart",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "kmcHI",
+                              "id": "w9ZzF",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "❤️ 愛與被愛",
+                              "content": "愛與被愛",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5456,15 +5951,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "IUCGD",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "users",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "vNLVw",
+                              "id": "IFpuf",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "👨‍👩‍👧 陪伴家人",
+                              "content": "陪伴家人",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5481,15 +5987,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "cYA2u",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "smile",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "gfTqG",
+                              "id": "zRPw1",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "😊 善待他人",
+                              "content": "善待他人",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5506,15 +6023,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "uCFt4",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "globe",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "qD49D",
+                              "id": "ai9EM",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🌍 影響世界",
+                              "content": "影響世界",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5540,15 +6068,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "zG7UF",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "flame",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "QjOHY",
+                              "id": "h7CUN",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🔥 活出熱情",
+                              "content": "活出熱情",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5565,15 +6104,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "csfv4",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "feather",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "cTvi0",
+                              "id": "f6fPT",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🕊️ 內心自由",
+                              "content": "內心自由",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5590,15 +6140,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "AQGnX",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "wind",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "v059K4",
+                              "id": "Pp3UQ",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🧘 平靜自在",
+                              "content": "平靜自在",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5624,15 +6185,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "wqQtW",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "trophy",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "jwE4P",
+                              "id": "bcegY",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🏆 敬佩的自己",
+                              "content": "敬佩的自己",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5649,15 +6221,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "EVdYA",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "compass",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "OaE3z",
+                              "id": "KLIf7",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "🧭 探索世界",
+                              "content": "探索世界",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
@@ -5674,15 +6257,26 @@
                           "stroke": "$--border",
                           "strokeWidth": 1,
                           "strokeAlignment": "inner",
+                          "gap": 8,
                           "padding": 14,
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "icon",
+                              "id": "tqSxL",
+                              "name": "Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "pen-line",
+                              "library": "lucide",
+                              "fill": "$--foreground"
+                            },
+                            {
                               "type": "text",
-                              "id": "JIT1A",
+                              "id": "KKpCf",
                               "name": "Label",
                               "fill": "$--foreground",
-                              "content": "✍️ 留下故事",
+                              "content": "留下故事",
                               "fontFamily": "Inter",
                               "fontSize": 14,
                               "fontWeight": "normal"
