@@ -15,6 +15,9 @@ const MOCK_TRACK: TrackOption[] = [
 export function useTracks() {
   return useQuery({
     queryKey: ['exploration', 'track'],
-    queryFn: async () => MOCK_TRACK,
+    queryFn: async () => {
+      await new Promise((resolve) => setTimeout(resolve, 2000))
+      return MOCK_TRACK
+    },
   })
 }
