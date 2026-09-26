@@ -15,11 +15,12 @@
 
 ## 待處理
 
-### 1. ExploreLayout(優先)
+### 1. ~~ExploreLayout(優先)~~ 已完成
 
-- 建立 `ExploreLayout`,放 Header(App 名稱 + `Step N / 4`)與 Footer 提示,讓 Step1~4 共用。
-- 把 `src/routes/index.tsx` 的扁平 `explore/step-1` 改成巢狀路由 `explore` → `children`,URL 結構不變。
-- 目前 Step2 導向 `/explore/step-2` 但路由不存在,會落到 404,需一併補上。
+- ~~建立 `ExploreLayout`,放 Header(App 名稱 + `Step N / 4`)與 Footer 提示,讓 Step1~4 共用。~~
+- ~~把 `src/routes/index.tsx` 的扁平 `explore/step-1` 改成巢狀路由 `explore` → `children`,URL 結構不變。~~
+- ~~目前 Step2 導向 `/explore/step-2` 但路由不存在,會落到 404,需一併補上。~~ 已加上 `step-2` 佔位路由,實際內容留給下一項處理。
+- Step 編號透過各 child route 的 `handle: { step: N }` 提供,`ExploreLayout` 用 `useMatches()` 讀取。
 
 ### 2. 通用「選項卡片群」元件
 
