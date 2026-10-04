@@ -17,7 +17,9 @@ Note: `.oxlintrc.json` exists at the repo root but `oxlint` is not installed as 
 ## Documentation
 
 - `docs/product.md` — 產品目標、目標使用者、核心使用者流程、核心概念、業務規則、範圍界定
-- `docs/questionnaire-flow-design.md` — Step1~4 問卷流程的後端資料模型、API 設計，以及與前端 `features/exploration` 切片的串接方式
+- `docs/exploration.md` — Step1~4 問卷流程的流程骨架、Track 分支決策，以及與前端 `features/exploration` 切片的串接方式
+- `docs/backend.md` — 問卷流程的後端資料模型（PostgreSQL schema）、API 草案、欄位命名轉換（snake_case → camelCase）、AI 分析的非同步執行方式
+- `docs/plan.md` — 目前開發進度、待處理項目、已決定的架構事項（持續更新）
 
 ## Architecture
 
