@@ -1,6 +1,6 @@
 # 開發計畫
 
-依據 2026-09-20 的專案分析整理。產品目標與流程見 [product.md](./product.md),Step1~4 的後端設計見 [questionnaire-flow-design.md](./questionnaire-flow-design.md)。
+依據 2026-09-20 的專案分析整理。產品目標與流程見 [product.md](./product.md),Step1~4 的流程設計見 [exploration.md](./exploration.md),後端資料模型/API/執行細節見 [backend.md](./backend.md)。
 
 ## 目前進度
 
@@ -24,14 +24,14 @@
 
 ### 2. 通用「選項卡片群」元件
 
-- 依 questionnaire-flow-design.md 第 5 節,元件吃 `{ title, subtitle, maxSelections, options }`,不把選項寫死。
+- 依 exploration.md 第 3 節,元件吃 `{ title, subtitle, maxSelections, options }`,不把選項寫死。
 - 一次涵蓋 Step2(依 track 分支)與 Step3(工作觀 / 人生觀)。
 - 每題最多選 2 個(product.md 業務規則)、可返回上一題修改。
 - `useExplorationStore` 擴充為累積各步驟已選的 `optionKeys`。
 
 ### 3. Step4 與後端串接
 
-- 建立 session、送出答案、`POST /analyze` 後以 `refetchInterval`(2 秒起)輪詢結果,見設計文件第 7 節。
+- 建立 session、送出答案、`POST /analyze` 後以 `refetchInterval`(2 秒起)輪詢結果,見 backend.md 第 4 節。
 - 把 `use-tracks.ts` 與後續 mock hook 的 `queryFn` 換成 `api.get(...)`。
 - 後端(Node.js + PostgreSQL)依設計文件的資料表與 API 草案實作。
 
@@ -49,6 +49,7 @@
 - AI 分析採「立即回應 + 前端輪詢」,不引入訊息佇列。
 - 不做登入,使用匿名 session(存 `sessionStorage`)。
 - 專案一律使用 `@` alias 匯入,不用相對路徑。
+- API 回應欄位一律 camelCase,DB 的 snake_case 由後端轉換,前端不處理,見 backend.md 第 3 節。
 
 ## 學習分工
 

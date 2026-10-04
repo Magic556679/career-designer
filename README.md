@@ -2,7 +2,7 @@
 
 幫助不知道職涯方向的人，透過一連串問題探索適合自己的職涯方向。
 
-產品目標與流程見 [docs/product.md](./docs/product.md)，問卷流程的後端設計見 [docs/questionnaire-flow-design.md](./docs/questionnaire-flow-design.md)，開發計畫見 [docs/plan.md](./docs/plan.md)。
+產品目標與流程見 [docs/product.md](./docs/product.md)，問卷流程設計見 [docs/exploration.md](./docs/exploration.md)，後端資料模型與 API 見 [docs/backend.md](./docs/backend.md)，開發計畫見 [docs/plan.md](./docs/plan.md)。
 
 ## 技術棧
 
