@@ -1,5 +1,5 @@
 import { create } from 'zustand'
-import { persist } from 'zustand/middleware'
+import { devtools, persist } from 'zustand/middleware'
 
 export interface AuthUser {
   id: string
@@ -15,13 +15,18 @@ interface AuthState {
 }
 
 export const useAuthStore = create<AuthState>()(
-  persist(
-    (set) => ({
-      token: null,
-      user: null,
-      setAuth: ({ token, user }) => set({ token, user }),
-      logout: () => set({ token: null, user: null }),
-    }),
-    { name: 'auth' },
+  devtools(
+    persist(
+      (set) => ({
+        token: null,
+        user: null,
+        setAuth: ({ token, user }) =>
+          set({ token, user }, undefined, 'auth/setAuth'),
+        logout: () =>
+          set({ token: null, user: null }, undefined, 'auth/logout'),
+      }),
+      { name: 'auth' },
+    ),
+    { name: 'AuthStore', enabled: import.meta.env.DEV },
   ),
 )
