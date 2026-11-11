@@ -1,12 +1,25 @@
+import { Navigate } from 'react-router-dom'
 import ErrorFallback from '@/components/errors/error-fallback'
 import { LoadingFallback } from '@/components/ui/spinner'
 import MultiSelectCards from '@/features/exploration/components/multi-select-cards'
-import { useQuestions, useExplorationStore } from '@/features/exploration'
+import {
+  useQuestions,
+  useExplorationStore,
+  type Track,
+} from '@/features/exploration'
 
 const EMPTY_SELECTED_IDS: string[] = []
 
 export default function Step2() {
-  const { data: question, isPending, isError, refetch } = useQuestions('unsure')
+  const track = useExplorationStore((state) => state.track)
+
+  if (!track) return <Navigate to='/explore/step-1' />
+
+  return <Step2Content track={track} />
+}
+
+function Step2Content({ track }: { track: Track }) {
+  const { data: question, isPending, isError, refetch } = useQuestions(track)
 
   const selectedIds = useExplorationStore(
     (state) =>
