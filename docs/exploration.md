@@ -36,6 +36,6 @@
 
 沿用 `src/routes/explore/step-1.tsx` 已經規劃好的「接縫」模式:
 
-- `src/features/exploration/api/use-tracks.ts` 目前回傳 mock 資料,之後只需把 `queryFn` 換成 `api.get('/api/questionnaire/questions', { params: { step: 2, track } })`,元件本身不用改。
-- `useExplorationStore`(zustand + sessionStorage)除了現有的 `track`,之後還會累積 Step2/Step3 已選的 `optionKeys`,在 Step4 一次組成 `answers` 送出。
-- Step2/Step3 的卡片元件應設計成通用的「選項卡片群」元件,吃 `{ title, subtitle, maxSelections, options }` 這種後端回傳的形狀,而不是像 Step1 一樣把選項寫死。
+- `src/features/exploration/api/use-tracks.ts`(Step1)與 `use-questions.ts`(Step2,`queryKey: ['exploration', 'questions', track]`)目前都回傳 mock 資料,之後只需把 `queryFn` 換成 `api.get(...)`(Step2 為 `api.get('/api/questionnaire/questions', { params: { step: 2, track } })`),元件本身不用改。
+- `useExplorationStore`(zustand + sessionStorage)除了 `track`,也以 `optionKeys: Record<questionId, optionId[]>` 累積 Step2/Step3 已選的選項(`setOptionKeys(questionId, optionIds)`),在 Step4 一次組成 `answers` 送出。
+- Step2/Step3 的卡片元件應設計成通用的「多選卡片」元件(`MultiSelectCards`,`components/multi-select-cards.tsx`),只負責 options 的顯示與選取,吃 `{ maxSelections, options, selectedIds, onChange }`,不把選項寫死。`title`/`subtitle` 屬於頁面文案,由呼叫端(`step-2.tsx` 等 route)自行渲染,不放進元件 props——元件名稱已經表明它只管「一組可多選的卡片」,不管整個問題區塊的版面。

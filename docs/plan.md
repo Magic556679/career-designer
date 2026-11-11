@@ -7,7 +7,8 @@
 | 項目                              | 狀態                                |
 | --------------------------------- | ----------------------------------- |
 | Step1(認識自己)頁面               | 已完成,含切版;`useTracks` 仍是 mock |
-| Step2 / Step3 / Step4             | 只有 wireframe 與後端設計,尚無頁面  |
+| Step2                             | 進行中,見 TODO.md                   |
+| Step3 / Step4                     | 只有 wireframe 與後端設計,尚無頁面  |
 | 後端 API / DB                     | 只有設計文件,尚未實作               |
 | 測試                              | 未設定 test runner                  |
 | `react-hook-form` / `zod`         | 已安裝,尚未使用                     |
@@ -22,12 +23,13 @@
 - ~~目前 Step2 導向 `/explore/step-2` 但路由不存在,會落到 404,需一併補上。~~ 已加上 `step-2` 佔位路由,實際內容留給下一項處理。
 - Step 編號透過各 child route 的 `handle: { step: N }` 提供,`ExploreLayout` 用 `useMatches()` 讀取。
 
-### 2. 通用「選項卡片群」元件
+### 2. 通用「多選卡片」元件(進行中,細項見 TODO.md)
 
-- 依 exploration.md 第 3 節,元件吃 `{ title, subtitle, maxSelections, options }`,不把選項寫死。
-- 一次涵蓋 Step2(依 track 分支)與 Step3(工作觀 / 人生觀)。
+- ~~依 exploration.md 第 3 節建立 `MultiSelectCards`,吃 `{ maxSelections, options, selectedIds, onChange }`,不把選項寫死;`title`/`subtitle` 由 route 渲染。~~ 已完成。
+- ~~`useExplorationStore` 擴充為累積各步驟已選的 `optionKeys`。~~ 已完成。
+- ~~Step2 依 track 分支(讀 `useExplorationStore` 的 `track`,未選 track 時導回 Step1)。~~ 已完成。
+- Step3(工作觀 / 人生觀)沿用同一元件。
 - 每題最多選 2 個(product.md 業務規則)、可返回上一題修改。
-- `useExplorationStore` 擴充為累積各步驟已選的 `optionKeys`。
 
 ### 3. Step4 與後端串接
 
