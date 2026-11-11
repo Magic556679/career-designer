@@ -57,4 +57,5 @@ Landing
 ## 後端技術
 
 - Node.js
+- Express
 - PostgreSQL
